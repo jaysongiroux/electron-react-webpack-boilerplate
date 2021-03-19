@@ -1,4 +1,6 @@
 import React from 'react'
+import Description from './Description'
+import Button from './Button'
 
 import '../assets/css/App.css'
 
@@ -7,7 +9,8 @@ function App() {
     <div>
       <h1>Hello, Electron!</h1>
 
-      <p>I hope you enjoy using basic-electron-react-boilerplate to start your dev off right!</p>
+      <Description />
+      <Button />
     </div>
   )
 }
