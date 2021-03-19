@@ -17,9 +17,9 @@
   <a href="https://buymeacoffee.com/alexdevero" rel="nofollow"><img src="https://img.shields.io/badge/Coffee-Donate-%23FF813F.svg?logo=buy-me-a-coffee&style=flat" alt="buymeacoffee" data-canonical-src="https://img.shields.io/badge/Coffee-Donate-%23FF813F.svg?logo=buy-me-a-coffee&style=flat" style="max-width:100%;"></a>
 </p>
 
-## Minimal Electron, React and Webpack boilerplate
+## Minimal Electron, React, Jest and Webpack boilerplate
 
-Minimal Electron, React, PostCSS and Webpack boilerplate to help you get started with building your next app.
+Minimal Electron, React, PostCSS, Jest and Webpack boilerplate to help you get started with building your next app.
 
 ### Table of contents
 
@@ -36,7 +36,7 @@ Minimal Electron, React, PostCSS and Webpack boilerplate to help you get started
 #### Clone this repo
 
 ```
-git clone https://github.com/alexdevero/electron-react-webpack-boilerplate.git
+git clone git@github.com:jaysongiroux/electron-react-webpack-boilerplate.git
 ```
 
 #### Install dependencies
@@ -87,6 +87,15 @@ npm run prod
 ```
 ```
 yarn prod
+```
+
+#### Run Unit tests
+```
+yarn test
+```
+or
+```
+npm test
 ```
 
 ### Add Sass
